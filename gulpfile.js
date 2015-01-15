@@ -5,7 +5,7 @@ var gutil = require('gulp-util');
 
 var livereload = require('gulp-livereload');
 var connect = require('connect');
-
+var fs = require('fs');
 var rename = require('gulp-rename');
 var browserify = require('browserify');
 var domthingify = require('domthingify');
@@ -15,6 +15,7 @@ var source = require('vinyl-source-stream');
 var combiner = require('stream-combiner2');
 var less = require('gulp-less');
 var autoprefixer = require('gulp-autoprefixer');
+var compileHandlebars = require('gulp-compile-handlebars');
 
 /** Config variables */
 var serverPort = 8888;
@@ -76,7 +77,7 @@ function compileScripts(watch) {
   }
 
   bundler.on('update', rebundle);
-  bundler.on('error', function (err) { console.log("Error : " + err.message); })
+  bundler.on('error', function (err) { console.log('Error : ' + err.message); })
 
   bundler.transform(domthingify);
   bundler.transform(to5ify.configure({ only: /app/ }));
@@ -84,6 +85,15 @@ function compileScripts(watch) {
   return rebundle();
 }
 
+function compileHtml() {
+  fs.readFile(process.cwd() + '/app/data.json', 'utf-8', function (err, _data) {
+    var data = JSON.parse(_data);
+    return gulp.src('app/index.hbs')
+      .pipe(compileHandlebars(data))
+      .pipe(rename('index.html'))
+      .pipe(gulp.dest('dist'));
+  });
+}
 
 gulp.task('server', function (next) {
   var server = connect();
@@ -105,6 +115,7 @@ gulp.task('default', ['server'], function () {
   }
 
   compileScripts(true);
+  compileHtml();
   initWatch(htmlFiles, 'html');
   initWatch(cssSource + '/*.less', ['less']);
 
