@@ -11,12 +11,13 @@
 <body>
   <main id="content">
 
-    {{#each features}}
-    <li>{{properties.title}}</li>
-    {{/each}}
+    <div id="map"></div>
+<iframe id="iframe" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/55399697&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+    <!-- <iframe id="iframe" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/72689171%3Fsecret_token%3Ds-weUSP&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe> -->
 
   </main>
-  <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35731/livereload.js?snipver=1"></' + 'script>')</script>
+  <script src="https://w.soundcloud.com/player/api.js"></script>
   <script src="bundle/app.js"></script>
 </body>
 </html>
