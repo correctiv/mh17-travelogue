@@ -3,42 +3,199 @@
   "features": [
     {
       "type": "Feature",
+      "properties": {
+        "filename": "28/1ß Dnpr.MP3",
+        "permalink": "https://soundcloud.com/schulze-2/schulze-schultze"
+      },
       "geometry": {
         "type": "Point",
-        "coordinates": [102.0, 0.6]
-      },
-      "properties": {
-        "title": "Title 0"
+        "coordinates": [
+          35.15625,
+          48.44742209577055
+        ]
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "filename": "28/10 Kurakhove",
+        "permalink": "https://soundcloud.com/schulze-2/schulze-schultze-1"
+      },
       "geometry": {
         "type": "Point",
-        "coordinates": [102.0, 0.6]
-      },
-      "properties": {
-        "title": "Title 1"
+        "coordinates": [
+          37.27386474609375,
+          47.98532601005293
+        ]
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "filename": "28/10 Marinka"
+      },
       "geometry": {
         "type": "Point",
-        "coordinates": [102.0, 0.6]
-      },
-      "properties": {
-        "title": "Title 2"
+        "coordinates": [
+          37.519683837890625,
+          47.951305426762616
+        ]
       }
     },
     {
       "type": "Feature",
+      "properties": {
+        "filename": "28/10 Checkpoint Dontzk DNR"
+      },
       "geometry": {
         "type": "Point",
-        "coordinates": [102.0, 0.6]
-      },
+        "coordinates": [
+          37.651519775390625,
+          47.94394667836214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "properties": {
-        "title": "Title 3"
+        "filename": "10 Zaroshchenske"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.44931602478027,
+          47.99089819188585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "filename": "30/10 Torez"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.60218048095703,
+          48.02896823395349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "filename": "10 Grenze Donetzk Luhansk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.801307678222656,
+          48.07165590643454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "filename": "28/10 Rückweg Luhansk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.277496337890625,
+          48.448560725028194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "filename": "31/10 Donetzk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.91210174560547,
+          48.02093165163088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "filename": "31/10 Snizhn Panzerketten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.75907897949219,
+          48.01473114624478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "filename": "01/11 Snizhne Kommandant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.766632080078125,
+          48.01817596352136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "filename": "02.11 Zuhres Militärkonvoi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.30039978027344,
+          48.01679806422947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "filename": "02/11 Stepanovka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.794612884521484,
+          47.925775282023274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "filename": "02/11 Grenze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.856239318847656,
+          47.87767079094932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "filename": "01.11 Absturzstelle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.55102539062499,
+          48.14524334899598
+        ]
       }
     }
   ]
