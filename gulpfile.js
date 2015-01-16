@@ -19,13 +19,13 @@ var compileHandlebars = require('gulp-compile-handlebars');
 
 /** Config variables */
 var serverPort = 8888;
-var lrPort = 35731;
+var lrPort = 35729;
 
 
 /** File paths */
 var dist = 'dist';
 
-var htmlFiles = 'app/**/*.html';
+var htmlFiles = 'app/**/*.hbs';
 var htmlBuild = dist;
 
 var cssSource = 'app/styles';
@@ -33,8 +33,14 @@ var cssBuild = dist + '/styles';
 var mainLessFile = '/app.less';
 
 gulp.task('html', function () {
-  return gulp.src(htmlFiles).
-    pipe(gulp.dest(htmlBuild));
+  compileHtml();
+});
+
+gulp.task('images', function() {
+  gulp.src('app/images/**/*')
+    .pipe(gulp.dest('dist/images'));
+  gulp.src('app/vendor/leaflet/dist/images/**/*')
+    .pipe(gulp.dest('dist/images/leaflet'));
 });
 
 /* Compile, minify, and compress LESS files */
@@ -91,7 +97,7 @@ function compileHtml() {
     return gulp.src('app/index.hbs')
       .pipe(compileHandlebars(data))
       .pipe(rename('index.html'))
-      .pipe(gulp.dest('dist'));
+      .pipe(gulp.dest(htmlBuild));
   });
 }
 
@@ -117,7 +123,8 @@ gulp.task('default', ['server'], function () {
   compileScripts(true);
   compileHtml();
   initWatch(htmlFiles, 'html');
-  initWatch(cssSource + '/*.less', ['less']);
+  initWatch(cssSource + '/*.less', 'less');
+  gulp.start('images');
 
   gulp.watch([dist + '/**/*'], reloadPage);
 });

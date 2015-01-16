@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "domthing": "^0.4.0",
-    "domthingify": "^0.2.0"
+    "domthingify": "^0.2.0",
+    "gulp-compile-handlebars": "^0.4.4"
   }
 }
