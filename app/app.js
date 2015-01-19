@@ -16,7 +16,9 @@ Leaflet.Icon.Default.imagePath = 'images/leaflet/';
 
 
 var widget = SC.Widget(iframeID);
-widget.load(soundCloudSetUrl, {});
+widget.load(soundCloudSetUrl, {
+  show_user: false
+});
 
 
 var map = Leaflet.map('map',{
