@@ -4,8 +4,8 @@
     {
       "type": "Feature",
       "properties": {
-        "filename": "28/1ß Dnpr.MP3",
-        "permalink": "https://soundcloud.com/schulze-2/schulze-schultze"
+        "title": "In Dnepropetrovsk startet Marcus Bensmann mit seinem Fahrer in die Vor-Ort-Recherche.",
+        "permalink": "https://soundcloud.com/correctiv_org/10-denpr"
       },
       "geometry": {
         "type": "Point",
@@ -18,8 +18,8 @@
     {
       "type": "Feature",
       "properties": {
-        "filename": "28/10 Kurakhove",
-        "permalink": "https://soundcloud.com/schulze-2/schulze-schultze-1"
+        "title": "Auf dem Weg in den Osten, in Kurakhove, passiert Marcus die letzten Grenzposten.",
+        "permalink": "https://soundcloud.com/correctiv_org/10-kurakhove"
       },
       "geometry": {
         "type": "Point",
@@ -32,7 +32,8 @@
     {
       "type": "Feature",
       "properties": {
-        "filename": "28/10 Marinka"
+        "title": "Marinka, die ersten Zerstörungen. Jetzt ist Marcus auf Kriegsgebiet.",
+        "permalink": "https://soundcloud.com/correctiv_org/10-marinka"
       },
       "geometry": {
         "type": "Point",
@@ -45,7 +46,8 @@
     {
       "type": "Feature",
       "properties": {
-        "filename": "28/10 Checkpoint Dontzk DNR"
+        "title": "Marcus passiert Panzersperren – offiziell, weil er über die Wahlen berichten will.",
+        "permalink": "https://soundcloud.com/correctiv_org/10-checkpoint-donetzk-dnr"
       },
       "geometry": {
         "type": "Point",
@@ -58,7 +60,8 @@
     {
       "type": "Feature",
       "properties": {
-        "filename": "10 Zaroshchenske"
+        "title": "In Zaroshchenske erinnert sich niemand an eine Rakete.",
+        "permalink": "https://soundcloud.com/correctiv_org/10-zaroshchenske"
       },
       "geometry": {
         "type": "Point",
@@ -71,7 +74,8 @@
     {
       "type": "Feature",
       "properties": {
-        "filename": "30/10 Torez"
+        "title": "Torez: Überfüllte Müllcontainer.",
+        "permalink": "https://soundcloud.com/correctiv_org/10-torez"
       },
       "geometry": {
         "type": "Point",
@@ -84,7 +88,8 @@
     {
       "type": "Feature",
       "properties": {
-        "filename": "10 Grenze Donetzk Luhansk"
+        "title": "Bei der Grenzüberquerung nach Luhansk sieht Marcus erste Panzer.",
+        "permalink": "https://soundcloud.com/correctiv_org/10-grenze-donetzk-luhansk"
       },
       "geometry": {
         "type": "Point",
@@ -97,7 +102,8 @@
     {
       "type": "Feature",
       "properties": {
-        "filename": "28/10 Rückweg Luhansk"
+        "title": "Auf dem Rückweg von Luhansk: kein Wasser, Schüsse, langes Warten",
+        "permalink": "https://soundcloud.com/correctiv_org/10-ru-ckweg-luhansk"
       },
       "geometry": {
         "type": "Point",
@@ -110,7 +116,8 @@
     {
       "type": "Feature",
       "properties": {
-        "filename": "31/10 Donetzk"
+        "title": "Marcus beschreibt die verschiedenen Typen von Separatisten",
+        "permalink": "https://soundcloud.com/correctiv_org/10-ausfahrt-donetzk"
       },
       "geometry": {
         "type": "Point",
@@ -123,7 +130,8 @@
     {
       "type": "Feature",
       "properties": {
-        "filename": "31/10 Snizhn Panzerketten"
+        "title": "Panzerspuren in Snizhne",
+        "permalink": "https://soundcloud.com/correctiv_org/panzerspuren-in-snizhne"
       },
       "geometry": {
         "type": "Point",
@@ -136,7 +144,8 @@
     {
       "type": "Feature",
       "properties": {
-        "filename": "01/11 Snizhne Kommandant"
+        "title": "Treffen mit dem Stadtkommmandanten von Snizhne",
+        "permalink": "https://soundcloud.com/correctiv_org/treffen-mit-dem-stadtkommandenten-snizhne"
       },
       "geometry": {
         "type": "Point",
@@ -149,7 +158,8 @@
     {
       "type": "Feature",
       "properties": {
-        "filename": "02.11 Zuhres Militärkonvoi"
+        "title": "In Zuhres passiert Marcus einen Militärkonvoi",
+        "permalink": "https://soundcloud.com/correctiv_org/in-zuhres-passiert-marcus"
       },
       "geometry": {
         "type": "Point",
@@ -162,7 +172,8 @@
     {
       "type": "Feature",
       "properties": {
-        "filename": "02/11 Stepanovka"
+        "title": "Stepanovka auf dem Weg nach Russland ist ein Schlachtfeld",
+        "permalink": "https://soundcloud.com/correctiv_org/stepanovka-auf-dem-weg-nach"
       },
       "geometry": {
         "type": "Point",
@@ -175,7 +186,8 @@
     {
       "type": "Feature",
       "properties": {
-        "filename": "02/11 Grenze"
+        "title": "Marcus beschreibt die ukrainisch-russische Grenze",
+        "permalink": "https://soundcloud.com/correctiv_org/11-grenze-1"
       },
       "geometry": {
         "type": "Point",
@@ -188,7 +200,8 @@
     {
       "type": "Feature",
       "properties": {
-        "filename": "01.11 Absturzstelle"
+        "title": "Die Absturzstelle – Trümmer noch immer überall",
+        "permalink": "https://soundcloud.com/correctiv_org/11-absturzstelle"
       },
       "geometry": {
         "type": "Point",

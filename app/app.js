@@ -3,8 +3,7 @@
 import Leaflet from './vendor/leaflet/dist/leaflet.js';
 import geojsonData from './data.json';
 
-var soundCloudSetUrl = 'https://soundcloud.com/correctiv_org/sets/our-office-in-the-zone';
-// var soundCloudSetUrl = 'https://soundcloud.com/correctiv_org/sets/mh17-eindrucke-aus-der-ostukraine';
+var soundCloudSetUrl = 'https://soundcloud.com/correctiv_org/sets/mh17-eindrucke-aus-der-ostukraine';
 
 var mapCenter = [48.27588152743497, 37.14752197265624];
 var mapZoom = 9;
@@ -38,7 +37,7 @@ Leaflet.tileLayer('./images/tiles/{z}/{x}/{y}.png', {
 var i = 0;
 var markerLayer = Leaflet.geoJson(geojsonData, {
   onEachFeature: function (feature, layer) {
-    layer.bindPopup(feature.properties.filename);
+    layer.bindPopup(feature.properties.title);
     layer.setOpacity(0.5);
     (function(i){
       layer.on('click', function(){
@@ -51,10 +50,8 @@ var markerLayer = Leaflet.geoJson(geojsonData, {
 markerLayer.addTo(map);
 
 
-widget.bind('play', function() {
-  console.log(arguments);
+widget.bind(SC.Widget.Events.PLAY, function() {
   widget.getCurrentSound(function(data){
-    console.log(data);
     markerLayer.eachLayer(function(layer){
       layer.setOpacity(0.5);
       if (layer.feature.properties.permalink === data.permalink_url) {
